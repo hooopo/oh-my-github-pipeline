@@ -225,8 +225,3 @@ Please refer to the table below for a brief description of each table's structur
 See the [Oh My GitHub Dashboard](https://github.com/hooopo/oh-my-github-dashboard) repository for more information on how to create a personal dashboard.
 
 ![image](https://user-images.githubusercontent.com/63877/226038417-89937699-8cbb-49f1-8b0f-992db6bc2f26.png)
-
-
-## How it works
-
-![image](https://github.com/hooopo/oh-my-github-dashboard/raw/main/static/how_it_works.png)
