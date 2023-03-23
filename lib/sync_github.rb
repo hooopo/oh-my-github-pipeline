@@ -2,7 +2,7 @@ require 'http'
 
 class SyncGithub
   def self.run!
-    ENV["USER_LOGIN"] ||= self.get_viewer_login
+    ENV["USER_LOGIN"] = self.get_viewer_login if ENV["USER_LOGIN"].blank?
     
     puts "👉 Sync current user info #{ENV['USER_LOGIN']}"
     FetchCurrentUser.new(ENV["USER_LOGIN"]).run 
