@@ -38,7 +38,8 @@ To use this repository, you will need to set the following secrets on GitHub:
 
 This project involves the following table structures and their relationships, as illustrated in the diagram below.
 
-Table relationships
+![image](https://user-images.githubusercontent.com/63877/227237749-d8ca55d9-4af3-47ad-b1f1-1526ca6bca4d.png)
+
 
 The curr_user table contains only one record and is used by BI tools to directly locate the synchronized target user through SQL queries. If you are using other programming languages, you can directly query the users table using the login parameter: where login = 'user_login'.
 
