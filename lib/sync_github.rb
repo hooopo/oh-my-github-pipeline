@@ -54,7 +54,7 @@ class SyncGithub
 
     response = HTTP.post("https://api.github.com/graphql",
       headers: {
-        "Authorization": "Bearer #{ENV['ACCESS_TOKEN'] || ENV['GITHUB_TOKEN'] }",
+        "Authorization": "Bearer #{ENV['ACCESS_TOKEN']}",
         "Content-Type": "application/json"
       },
       json: { query: query }
