@@ -1,5 +1,7 @@
 require 'http'
 
+ENV['ACCESS_TOKEN'] = ENV['GITHUB_TOKEN'] if ENV['ACCESS_TOKEN'].blank?
+
 class SyncGithub
   def self.run!
     ENV["USER_LOGIN"] = self.get_viewer_login if ENV["USER_LOGIN"].blank?
