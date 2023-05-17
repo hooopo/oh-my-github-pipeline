@@ -37,6 +37,7 @@ class FetchFollowers
                 company
                 createdAt
                 updatedAt
+                avatarUrl
                 twitterUsername
                 followers {
                   totalCount
@@ -143,6 +144,7 @@ class FetchFollowers
         company: hash["company"],
         created_at: hash["createdAt"],
         updated_at: hash["updatedAt"],
+        avatar_url: hash["avatarUrl"],
         twitter_username: hash["twitterUsername"],
         followers_count: hash["followers"]["totalCount"],
         following_count: hash["following"]["totalCount"]
