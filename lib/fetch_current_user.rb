@@ -21,7 +21,7 @@ class FetchCurrentUser
         bio
         createdAt
         updatedAt
-        
+        avatarUrl
         following {
           totalCount
         }
@@ -44,6 +44,7 @@ class FetchCurrentUser
       location: base["location"],
       created_at: base["createdAt"],
       updated_at: base["updatedAt"],
+      avatar_url: base["avatarUrl"],
       followers_count: base.dig("followers", "totalCount"),
       following_count: base.dig("following", "totalCount"),
       region: base["location"] && Geocoder.search(base["location"])&.first&.country

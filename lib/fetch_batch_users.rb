@@ -37,7 +37,7 @@ class FetchBatchUsers
         bio
         createdAt
         updatedAt
-        
+        avatarUrl
         following {
           totalCount
         }
@@ -60,6 +60,7 @@ class FetchBatchUsers
         location: base["location"],
         created_at: base["createdAt"],
         updated_at: base["updatedAt"],
+        avatar_url: base["avatarUrl"],
         followers_count: base.dig("followers", "totalCount"),
         following_count: base.dig("following", "totalCount")
       }
