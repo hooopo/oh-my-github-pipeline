@@ -119,7 +119,7 @@ class FetchIssues
     edges = data.dig("data", "user", "issues", "edges")
     if edges.nil?
       puts data["errors"]
-      raise "GitHubb API issue, please try again later"
+      raise "GitHub API issue, please try again later"
     end
     edges.map do |edge|
       hash = edge["node"]
