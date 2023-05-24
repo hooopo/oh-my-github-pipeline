@@ -1,0 +1,30 @@
+name: 'Sync GitHub Personal Data'
+description: 'An action that syncs GitHub personal data to database'
+branding:
+  icon: 'git-pull-request'
+  color: 'gray-dark'
+
+inputs:
+  database-url:
+    description: 'Database URL'
+    required: true
+  access-token:
+    description: 'GitHub access token'
+    required: true
+  user-login:
+    description: 'User login to sync'
+    required: true
+  openai-token:
+    description: 'OpenAI token'
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile' 
+
+  # Pass the inputs and secret values as environment variables to the Docker container
+  env:
+    DATABASE_URL: ${{ inputs.database-url }}
+    ACCESS_TOKEN: ${{ inputs.access-token || secrets.GITHUB_TOKEN }}
+    USER_LOGIN: ${{ inputs.user-login }}
+    OPENAI_TOKEN: ${{ inputs.openai-token }}
