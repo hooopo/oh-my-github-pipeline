@@ -34,7 +34,12 @@ To use this repository, you will need to set the following secrets on GitHub:
 
 ![image](https://user-images.githubusercontent.com/63877/226040673-bf5467ee-d8c7-4380-a705-0504229ddf16.png)
 
+Enable GitHub Action:
 ![image](https://github.com/hooopo/oh-my-github-pipeline/assets/63877/3849182a-500e-4f0a-ad55-0429a4cc0e74)
+
+For the first time, you can manually run GitHub Action:
+![image](https://github.com/hooopo/oh-my-github-pipeline/assets/63877/98b1b1d9-4b99-416f-8121-dd6eee1c8553)
+
 
 
 ### Table Schema
