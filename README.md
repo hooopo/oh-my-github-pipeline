@@ -34,6 +34,9 @@ To use this repository, you will need to set the following secrets on GitHub:
 
 ![image](https://user-images.githubusercontent.com/63877/226040673-bf5467ee-d8c7-4380-a705-0504229ddf16.png)
 
+![image](https://github.com/hooopo/oh-my-github-pipeline/assets/63877/3849182a-500e-4f0a-ad55-0429a4cc0e74)
+
+
 ### Table Schema
 
 This project involves the following table structures and their relationships, as illustrated in the diagram below.
