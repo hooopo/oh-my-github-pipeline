@@ -166,7 +166,7 @@ class FetchStarredRepos
         is_private: hash["isPrivate"],
         disk_usage: hash["diskUsage"],
         language: hash.dig("primaryLanguage", "name"),
-        description: hash["description"].to_s[0, 60000],
+        description: hash["description"].to_s[0, 255],
         is_fork: hash["isFork"],
         parent_id: hash.dig("parent", "databaseId"),
         created_at: hash["createdAt"],
