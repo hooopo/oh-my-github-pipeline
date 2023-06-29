@@ -24,7 +24,7 @@ class FetchIssues
           resetAt
         }
         user(login: "#{login}") {
-          issues(first: 100, orderBy: {field: UPDATED_AT, direction: ASC} #{after}) {
+          issues(first: 50, orderBy: {field: UPDATED_AT, direction: ASC} #{after}) {
             pageInfo {
               endCursor
               hasNextPage
