@@ -227,6 +227,16 @@ Please refer to the table below for a brief description of each table's structur
 +----------------------------+--------------+------+-----+---------+----------------+
 ```
 
+## Related repos
+
+* [Oh My GitHub Circles](https://github.com/hooopo/oh-my-github-circles)
+* [Oh My GitHub Pipeline](https://github.com/hooopo/oh-my-github-pipeline)
+* [Repo Contributor Circles](https://github.com/hooopo/repo-contributor-circles)
+* [Repo Track Pipeline](https://github.com/hooopo/repo-track-pipeline)
+* [OSSInsight Lite](https://github.com/pingcap/ossinsight-lite)
+* [OSSInsight](https://github.com/pingcap/ossinsight)
+* [Hackernews Insight](https://github.com/hooopo/hackernews-insight)
+* [Oh My GitHub Dashboard](https://github.com/hooopo/oh-my-github-dashboard)
 
 ### Personal Dashboard
 
