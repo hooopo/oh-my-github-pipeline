@@ -57,3 +57,6 @@ gem "geocoder", "~> 1.8"
 gem "ruby-openai", "~> 3.3"
 
 gem "retryable", "~> 3.0"
+
+gem "sentry-ruby"
+gem "sentry-rails"
